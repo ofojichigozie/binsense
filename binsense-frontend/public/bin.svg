@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Handle -->
+  <path
+    d="M35 18 Q50 6 65 18"
+    stroke="#0284c7"
+    stroke-width="5"
+    stroke-linecap="round"
+    fill="none"
+  />
+  <!-- Lid -->
+  <rect x="20" y="22" width="60" height="10" rx="4" fill="#0ea5e9" />
+  <!-- Body -->
+  <rect x="25" y="34" width="50" height="50" rx="6" fill="#0ea5e9" />
+  <!-- Ribbing lines -->
+  <line x1="38" y1="40" x2="38" y2="78" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.45" />
+  <line x1="50" y1="40" x2="50" y2="78" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.45" />
+  <line x1="62" y1="40" x2="62" y2="78" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.45" />
+</svg>
