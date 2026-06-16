@@ -2,14 +2,14 @@
 #define CONFIG_H
 
 // ─── WiFi ─────────────────────────────────────────────────────────────────────
-#define WIFI_SSID      "your_wifi_ssid"
-#define WIFI_PASSWORD  "your_wifi_password"
+#define WIFI_SSID      "Wirespot"
+#define WIFI_PASSWORD  "W12345678T"
 
 // ─── Backend ──────────────────────────────────────────────────────────────────
 // Replace with your deployed backend URL or local IP during development
-// e.g. "http://192.168.1.100:5000/api/readings" or "https://your-app.onrender.com/api/readings"
-#define SERVER_URL     "http://your-server.com/api/readings"
-#define DEVICE_API_KEY "your_device_api_key"
+// e.g. "https://your-app.onrender.com/api/readings"
+#define SERVER_URL     "https://binsense-be.onrender.com/api/readings"
+#define DEVICE_API_KEY "bs_4e8a1f3c9b2d6e0f5a7c3b8d1e4f2a9c"
 
 // ─── Bin ──────────────────────────────────────────────────────────────────────
 #define BIN_ID         "BIN-001"
@@ -24,7 +24,7 @@
 #define LED_PIN   D2  // GPIO4
 
 // ─── Timing ───────────────────────────────────────────────────────────────────
-#define READ_INTERVAL_MS   30000UL  // Interval between readings (30 seconds)
+#define READ_INTERVAL_MS   10000UL  // Interval between readings (10 seconds)
 #define BLINK_INTERVAL_MS  200      // LED blink half-period during events
 
 // ─── Sensor ───────────────────────────────────────────────────────────────────

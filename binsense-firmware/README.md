@@ -39,7 +39,7 @@ This folder contains the ESP8266 firmware for the BinSense hardware device.
    Replace `COM3` with your serial port.
 7. Monitor the serial output.
    ```sh
-   arduino-cli monitor -p COM3 --baud 115200
+   arduino-cli monitor -p COM3 --fqbn esp8266:esp8266:nodemcuv2
    ```
 
 ## Notes
